@@ -8,9 +8,10 @@
 
 
 body {
+    box-sizing: border-box;
     background-color: black;
     color: white;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 strong {
@@ -18,7 +19,7 @@ strong {
 }
 
 .apresentacao {
-    margin:5%;
+    padding:8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,4 +79,36 @@ strong {
     border: 2px solid #0000FF;
     background-color: #272727;
     cursor: pointer;
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 8%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD ;
+}
+
+
+.cabecalho__menu__link:hover {
+    color: #0000FF;
+    
 }
