@@ -1,27 +1,46 @@
-Meu Portfólio 🚀
+# 🌐 Landing Page - Portfólio
 
-Este projeto é uma landing page simples feita em HTML e CSS como parte do curso de HTML e CSS da Alura
-.
-O objetivo foi praticar a criação de páginas estáticas, organização de código e estruturação de um portfólio pessoal.
+Este projeto é uma **landing page de portfólio pessoal**, desenvolvida durante o curso de **HTML e CSS** da [Alura](https://www.alura.com.br/).  
+O objetivo foi praticar a criação de páginas estáticas com HTML semântico, estilização com CSS e uso de variáveis para manter um design consistente.
 
-🛠️ Tecnologias utilizadas
+---
 
-- HTML5
+## 🔗 Acesse o projeto
 
-- CSS3
+👉 [Veja a página publicada no GitHub Pages](https://guiflins.github.io/LandingPageFront-end)
 
-  📚 Aprendizados
+---
 
-Durante esse projeto, pratiquei:
+## 🛠️ Tecnologias utilizadas
 
-- Estruturação semântica em HTML
+- **HTML5** (semântica, links, navegação entre páginas)  
+- **CSS3** (variáveis, hover, flexbox, responsividade inicial, Google Fonts)  
 
-- Estilização básica com CSS
+---
 
-- Publicação de páginas no GitHub Pages
+## 📄 Estrutura do projeto
 
-  📌 Como rodar o projeto
+- `index.html` → Página inicial (apresentação e links para redes sociais)  
+- `about.html` → Página "Sobre mim" com informações pessoais e objetivos  
+- `styles/atv8.css` → Arquivo de estilo principal  
+- `assets/` → Pasta com imagens e ícones usados no projeto  
 
-Clone este repositório e abra o arquivo atv4.html em qualquer navegador.
-git clone https://github.com/guiflins/LandingPageFront-end
+---
 
+## 📚 Aprendizados
+
+Neste projeto, pratiquei e aprendi:  
+- Criação de **navegação entre páginas** usando `<nav>` e `<a>`  
+- Uso de **tags semânticas** (`header`, `main`, `section`, `footer`)  
+- Estilização com **Flexbox** para organizar layout  
+- Aplicação de **variáveis CSS** (`:root`) para manter consistência de cores  
+- Uso de **Google Fonts** para personalizar a tipografia  
+- Efeitos de **hover** em links para melhorar a usabilidade  
+- Estruturação de um **portfólio simples e funcional**  
+
+---
+## 📌 Como executar o projeto
+
+1. Clone este repositório:  
+   ```bash
+   git clone https://github.com/guiflins/LandingPageFront-end.git
