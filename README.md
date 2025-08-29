@@ -5,12 +5,6 @@ O objetivo foi praticar a criação de páginas estáticas com HTML semântico, 
 
 ---
 
-## 🔗 Acesse o projeto
-
-👉 [Veja a página publicada no GitHub Pages](https://guiflins.github.io/LandingPageFront-end)
-
----
-
 ## 🛠️ Tecnologias utilizadas
 
 - **HTML5** (semântica, links, navegação entre páginas)  
