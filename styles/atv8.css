@@ -29,24 +29,24 @@ strong {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    gap: 82px;
 }
 
 .apresentacao_conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao_conteudo_titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: "Krona One", sans-serif;
     
 }
 
 .apresentacao_conteudo_texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
 
 }
@@ -59,16 +59,16 @@ strong {
     gap: 32px;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid  var(--cor-terciaria);
     color: var(--cor-secundaria);
     border-radius: 8px;
-    width: 378px;
+    width: 50%;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     font-family: "Montserrat", sans-serif;
@@ -78,7 +78,7 @@ strong {
 .apresentacao__links__subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link:hover {
@@ -93,7 +93,7 @@ strong {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 24px;
 }
 
@@ -108,7 +108,7 @@ strong {
 
 .cabecalho__menu__link {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria) ;
     text-decoration: none;
@@ -121,8 +121,33 @@ strong {
 }
 
 
-.dimg {
-    width: 450px;
+.apresentacao__imagem {
+    width: 35%;
     border-radius: 8%;
    
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 18%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 10%;
+
+    }
+
+    .apresentacao__imagem {
+        width: 40%;
+        border-radius: 8%;
+
+    }
+
+    .apresentacao_conteudo {
+        width: auto;
+    }
 }
