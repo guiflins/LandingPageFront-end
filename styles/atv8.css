@@ -154,4 +154,9 @@ strong {
     .apresentacao_conteudo_texto {
         font-size: 1rem;
     }
+
+    .apresentacao_conteudo_titulo {
+    font-size: 2rem;
+    
+}
 }
