@@ -150,4 +150,8 @@ strong {
     .apresentacao_conteudo {
         width: auto;
     }
+
+    .apresentacao_conteudo_texto {
+        font-size: 1rem;
+    }
 }
